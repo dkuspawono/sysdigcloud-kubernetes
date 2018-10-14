@@ -14,7 +14,7 @@ spec:
       terminationGracePeriodSeconds: 10
       containers:
       - name: redis-secondary
-        image: quay.io/sysdig/redis:3.2-v12.3
+        image: quay.io/sysdig/redis:3.2.12.3-alpine-ha
         imagePullPolicy: Always
         resources:
           requests:

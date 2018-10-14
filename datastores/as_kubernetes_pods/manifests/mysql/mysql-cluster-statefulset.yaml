@@ -40,7 +40,7 @@ spec:
     spec:
       containers:
         - name: mysql
-          image: quay.io/sysdig/mysql-server:8.0.11.1
+          image: quay.io/sysdig/mysql-server:8.0.11.2
           command:
             - /bin/bash
             - -ecx
@@ -96,7 +96,7 @@ spec:
               name: data
               subPath: "mysql"
         - name: mysql-agent
-          image: quay.io/sysdig/mysql-agent:0.1.1
+          image: quay.io/sysdig/mysql-agent:0.1.1.1
           args:
             - --v=4
             - --no-kube-client
