@@ -14,7 +14,7 @@ spec:
       terminationGracePeriodSeconds: 10
       containers:
       - name: redis-sentinel
-        image: quay.io/sysdig/redis:3.2.12.3-alpine-ha
+        image: quay.io/sysdig/redis:3.2.12.4-alpine-ha
         imagePullPolicy: Always
         resources:
           requests:

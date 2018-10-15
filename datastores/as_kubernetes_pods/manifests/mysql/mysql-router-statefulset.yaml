@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: mysql-router
-          image: quay.io/sysdig/mysql-router:8.0.11
+          image: quay.io/sysdig/mysql-router:8.0.11.1
           env:
             - name: MYSQL_USER
               value: root
